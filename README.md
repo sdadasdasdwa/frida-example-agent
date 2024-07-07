@@ -92,3 +92,35 @@ A footnote can also have multiple lines[^2].
 > Advises about risks or negative outcomes of certain actions.
 
 <!-- This content will not appear in the rendered Markdown -->
+
+## 使用表格组织信息
+可以使用竖线 | 和连字符 - 创建表，可以在表格中使用格式，例如链接、内联代码块和文本样式。可以通过在标题行中连字符的左侧、右侧或两侧添加冒号 :，来靠左、靠右或居中对齐列中的文本。若要包含竖线 | 作为单元格中的内容，请在竖线前使用 \。
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+## 折叠部分
+使用detail标签
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+
+## 代码块语法突出显示
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
