@@ -36,3 +36,59 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 [readme.md](/README.md)
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](/image.png)
+
+用-、*、+来创建一个无序列表
+
+- 你好
+* 我不好
++ 再见
+1. 这是有序列表
+2. 这是有序列表
+3. 这是有序列表
+
+**嵌套列表**
+
+100. First list item
+       - First nested list item
+           - Second nested list item
+
+
+**任务列表**
+
+用法： - []中间可以加x代表任务是否完成
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+**脚注**
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
+
+**警报**
+
+有!NOT !TIP !IMPORTANT !WARNING !CAUTION
+
+用法：> [!NOT]
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+<!-- This content will not appear in the rendered Markdown -->
