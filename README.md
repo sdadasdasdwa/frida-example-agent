@@ -248,4 +248,7 @@ endsolid
 **4.1工具函数封装**
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](/Chap04/编码工具函数封装.png)
 
+**4.2 MD5算法与MAC算法的区别**
+> [!NOT]
+MD5是用来生成固定长度的消息摘要（通常是128位）。它将任意长度的数据输入，通过复杂的算法处理，生成一个固定长度的输出，称为哈希值或消息摘要。
 
