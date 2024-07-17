@@ -36,7 +36,7 @@ function main() {
         messageDigest.digest.overload('[B','int','int').implementation = function(data,start,length){
             console.log("MessageDigest.digest('[B','int','int')");;
             var algorithm  = this.getAlgorithm();
-            var tag = algorithm + "digest data";
+            var tag = algorithm + "digest data";    
             var result = this.digest(data,start,length);
             var tags = algorithm + "digest result";
             return result;
